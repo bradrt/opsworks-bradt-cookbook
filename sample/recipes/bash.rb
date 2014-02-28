@@ -1,6 +1,6 @@
 bash "change system greeting" do
   user "root"
   code <<-EOH
-  echo "Hello OpsWorks World Updated!" >> /etc/motd
+  echo "#{node[:motd1]} #{node[motd2]}" >> /etc/motd
   EOH
 end
