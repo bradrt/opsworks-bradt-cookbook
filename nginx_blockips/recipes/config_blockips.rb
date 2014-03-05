@@ -4,3 +4,7 @@ template "/etc/nginx/conf.d/blockips.conf" do
   group "root"
   mode "0644"  
 end
+
+service "nginx" do
+  action :reload
+end

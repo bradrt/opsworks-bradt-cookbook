@@ -4,3 +4,7 @@ bash "add ip to blockips.conf" do
   echo "deny #{node[:ipaddress]};" >> /etc/nginx/conf.d/blockips.conf
   EOH
 end
+
+service "nginx" do
+  action :reload
+end
