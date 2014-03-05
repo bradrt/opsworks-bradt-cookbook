@@ -1,0 +1,6 @@
+maintainer        "Brad Thompson"
+maintainer_email  "brad@youdazzle.com"
+license           "MIT"
+description       "Test Recipes"
+version           "0.0.1"
+recipe            "sample::nginx_blockips", "Add blockips to nginx"
