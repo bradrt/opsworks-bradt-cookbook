@@ -12,7 +12,7 @@ end
 bash "provision alertlogic protected host" do
   user "root"
   code <<-EOH
-  /etc/init.d/al-threat-host provision --key 0dfda93eec9e6fa584ee26baf049eef4c428e2de651e4ae022 --inst-type host
+  /etc/init.d/al-threat-host provision --key #{[:alertlogic][:key]} --inst-type host
   EOH
   notifies :start, resources(:service => "al-threat-host")
 end
