@@ -1,6 +1,6 @@
 package "alertlogic" do
   action :install
-  source "#{Chef::Config[:file_cache_path]}/al-threat-host_LATEST.amd64.deb"
+  source "#{Chef::Config[:file_cache_path]}/site-cookbooks/alertlogic/files/default/al-threat-host_LATEST.amd64.deb"
 end
 
 service "al-threat-host" do
