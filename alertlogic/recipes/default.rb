@@ -1,6 +1,6 @@
 package "alertlogic" do
   action :install
-  source "al-threat-host_LATEST.amd64.deb"
+  source "/var/chef-package-cache/al-threat-host_LATEST.amd64.deb"
 end
 
 service "al-threat-host" do
