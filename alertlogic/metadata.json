@@ -1,0 +1,29 @@
+{
+  "name": "alertlogic",
+  "description": "Install and configure AlertLogic",
+  "long_description": "",
+  "maintainer": "Brad Thompson",
+  "maintainer_email": "brad@youdazzle.com",
+  "license": "Apache v2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}
