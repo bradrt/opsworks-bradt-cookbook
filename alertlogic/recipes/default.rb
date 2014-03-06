@@ -6,7 +6,6 @@ end
 
 service "al-threat-host" do
   supports :start => true
-  action [ :enable, :start ]
 end
 
 bash "provision alertlogic protected host" do
