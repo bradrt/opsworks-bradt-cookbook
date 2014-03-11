@@ -1,3 +1,3 @@
 # include recipes to add realips and add blockips.conf
-include_recipe "realips"
-include_recipe "blockips"
+include_recipe "config_realips"
+include_recipe "config_blockips"
