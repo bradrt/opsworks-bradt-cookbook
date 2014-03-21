@@ -9,6 +9,6 @@ bash "install_speedtest-cli" do
    user "root"
    group "root"
    code <<-EOH
-     cp speedtest_cli.py /usr/local/bin
+     cp speedtest_cli.py /usr/local/bin/speedtest-cli
      EOH
 end
