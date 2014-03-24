@@ -1,4 +1,10 @@
-maintainer        "Christopher Peplin"
-maintainer_email  "chris.peplin@rhubarbtech.com"
-description       "Install and configure DenyHosts"
-version           "0.1"
+name             "denyhosts"
+maintainer       "Phil Cohen"
+maintainer_email "github@phlippers.net"
+license          "MIT"
+description      "Installs denyhosts"
+version          "1.4.0"
+
+%w{ubuntu debian redhat centos}.each do |os|
+  supports os
+end
